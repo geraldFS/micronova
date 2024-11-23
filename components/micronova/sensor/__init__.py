@@ -87,7 +87,7 @@ CONFIG_SCHEMA = cv.Schema(
             accuracy_decimals=1,
         ).extend(
             MICRONOVA_LISTENER_SCHEMA(
-                default_memory_location=0x00, default_memory_address=0x3B
+                default_memory_location=0x00, default_memory_address=0x03
             )
         ),
         cv.Optional(CONF_WATER_PRESSURE): sensor.sensor_schema(
