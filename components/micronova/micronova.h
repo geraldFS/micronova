@@ -14,17 +14,17 @@ namespace micronova {
 
 static const char *const TAG = "micronova";
 
-static const std::string STOVE_STATES[11] = {"Off",
+static const std::string STOVE_STATES[11] = {"Aus",
                                              "Start",
-                                             "Pellets loading",
-                                             "Ignition",
-                                             "Working",
-                                             "Brazier Cleaning",
-                                             "Final Cleaning",
+                                             "Pellets laden",
+                                             "Zündung",
+                                             "Arbeit",
+                                             "Brennkammerreiniung",
+                                             "Ausblasen",
                                              "Standby",
-                                             "No pellets alarm",
-                                             "No ignition alarm",
-                                             "Undefined alarm"};
+                                             "Pellets aus - Alarm",
+                                             "Zündfelher- Alarm",
+                                             "Undefinierter - Alarm"};
 
 enum class MicroNovaFunctions {
   STOVE_FUNCTION_VOID = 0,
